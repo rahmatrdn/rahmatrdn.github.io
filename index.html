@@ -1,1 +1,233 @@
-uwu
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Rahmat Ramadhan Putra</title>
+
+    <!-- Initial Icons from Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+    <!-- Initial Framework CSS Boostrap v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Initial Font Nunito from Goggle Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;700;800&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    /* CARDS */
+    .card-profile {
+        border: none;
+        background-color: #EFF6FF;
+        border-radius: 31px;
+    }
+
+    .card-profile-link:hover {
+        transition: all .2s ease-in-out;
+        -webkit-transition: all .2s ease-in-out;
+        color: #4f8dcf;
+        background-color: #f9fcff;
+    }
+
+    .card-profile-link:active {
+        color: #264c74;
+        background-color: #e8f3ff;
+    }
+
+    .card-profile-link {
+        border: none;
+        box-shadow: 0px 8px 27px rgba(0, 0, 0, 0.11);
+        border-radius: 16px;
+        cursor: pointer;
+    }
+
+    .card-share {
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
+    }
+
+    .card-share.coding {
+        background: #F0FFFA;
+        border: 1px solid #3FAB87;
+    }
+
+    .card-share.ui-ux {
+        background: #F6EFFF;
+        border: 1px solid #6E3FAB;
+    }
+
+    /* END OF CARDS */
+
+    .img-circle {
+        border-radius: 50%;
+        border: 8px solid #FFFFFF;
+        width: 150px;
+    }
+
+    .letter-spacing-1 {
+        letter-spacing: 1px;
+    }
+
+    .text-grey-medium {
+        color: #7C7C7C;
+    }
+
+    .text-grey-bold {
+        color: #606060;
+    }
+
+    .btn-kitab {
+        background-color: white !important;
+        border-radius: 30px;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.06);
+    }
+
+    .btn-skil {
+        font-size: 12px !important;
+    }
+
+    .font {
+        font-size: 25px;
+    }
+</style>
+
+<body style="font-family: 'Nunito', sans-serif;">
+
+    <section id="content">
+        <div class="container my-5">
+            <div class="row">
+                <!-- Sekilas Tentang Saya -->
+                <div class="col-md-4">
+                    <div class="card card-profile text-center p-3">
+                        <div class="card-body">
+                            <img src="assets/images/me.jpg" alt="" class="img-fluid img-circle">
+
+                            <h2 class="mt-3"><b>Rahmat Ramadhan Putra</b></h2>
+                            <span class="text-grey-medium letter-spacing-1">Full Stack Software Development
+                                Engineer</span>
+                            <p class="mt-3 text-grey-bold">4+ years experience working in Software Development.
+                                Currently, I work as a Backend
+                                Developer at Smartseller.co.id. I'm also passionate and concern about Startup, UI/UX,
+                                and Product Management.</p>
+
+                            <!-- SKILS -->
+                            <div>
+                                <a class="btn btn-light btn-skil bg-white mb-2 me-1" disabled>HTML, CSS, Javascript</a>
+                                <a class="btn btn-light btn-skil bg-white mb-2 me-1" disabled>PHP</a>
+                                <a class="btn btn-light btn-skil bg-white mb-2 me-1" disabled>PHP Laravel</a>
+                                <a class="btn btn-light btn-skil bg-white mb-2 me-1" disabled>PHP Codeigniter</a>
+                                <a class="btn btn-light btn-skil bg-white mb-2 me-1" disabled>SQL</a>
+                                <a class="btn btn-light btn-skil bg-white mb-2 me-1" disabled>MongoDB</a>
+                                <a class="btn btn-light btn-skil bg-white mb-2 me-1" disabled>Golang</a>
+                                <a class="btn btn-light btn-skil bg-white mb-2 me-1" disabled>UI Design in Figma</a>
+                                <a class="btn btn-light btn-skil bg-white mb-2 me-1" disabled>Product Management</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Link ke My Online CV -->
+                <div class="col-md-4 mt-5">
+
+                    <div class="row mx-2">
+                        <h6 class="letter-spacing-1 text-grey-medium mb-4">MY PROFILE</h6>
+                        <div class="col-md-12">
+                            <div class="card card-profile-link mb-4" onclick="location.href = 'https://www.linkedin.com/in/rahmatrdn/';">
+                                <div class="card-body text-center">
+                                    <div class="d-flex justify-content-between mx-3 py-1">
+                                        <i class="fab fa-linkedin font"></i>
+                                        <h5 class="mb-0"><strong>Linkedin</strong></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card card-profile-link mb-4" onclick="location.href = 'https://github.com/rahmatrdn';">
+                                <div class="card-body text-center">
+                                    <div class="d-flex justify-content-between mx-3 py-1">
+                                        <i class="fab fa-github font"></i>
+                                        <h5 class="mb-0"><strong>Github</strong></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card card-profile-link mb-4" onclick="location.href = 'https://drive.google.com/file/d/1wzZQGitPcuVlfeoJxeD7_LUCdyupFCyJ/view?usp=sharing';">
+                                <div class="card-body text-center">
+                                    <div class="d-flex justify-content-between mx-3 py-1">
+                                        <i class="fas fa-id-badge font"></i>
+                                        <h5 class="mb-0"><strong>Creative CV</strong></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Sharing -->
+                <div class="col-md-4 my-5">
+
+                    <div class="row mx-2">
+                        <h6 class="letter-spacing-1 text-grey-medium mb-4">SHARING</h6>
+
+                        <!-- Kitab Coding -->
+                        <div class="col-md-12 mb-4">
+                            <div class="card card-share coding">
+                                <div class="card-body">
+                                    <h4><b>Kitab Coding</b></h4>
+                                    <p class="text-grey-medium">Rekomendasi tempat belajar Coding, mulai dari Web,
+                                        Android, dll. <br> Terdapat
+                                        juga alur belajar buat kamu yang bingung belajar bikin aplikasi dari mana</p>
+
+                                    <div class="d-grid gap-2">
+                                        <a target="_blank" href="https://docs.google.com/spreadsheets/d/1ItnuaUYe6UDbbXimIVqk96LtKMsYZc1J_gnXxKmpOtw/edit?usp=sharing" class="btn btn-light btn-md btn-kitab px-4 letter-spacing-1">
+                                            Baca Kitab →
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- UI/UX and Product Management -->
+                        <div class="col-md-12 mb-3">
+                            <div class="card card-share ui-ux">
+                                <div class="card-body">
+                                    <h4><b>Kitab UI/UX dan Product Management</b></h4>
+                                    <p class="text-grey-medium">Rekomendasi tempat belajar Coding, mulai dari Web,
+                                        Android, dll. <br> Terdapat
+                                        juga alur belajar buat kamu yang bingung belajar bikin aplikasi dari mana</p>
+
+                                    <div class="d-grid gap-2">
+                                        <a target="_blank" href="https://docs.google.com/spreadsheets/d/16JnddD9OECvVlce89CHh0Do6vZxkLazVHosx1tVf0PI/edit?usp=sharing" class="btn btn-light btn-md btn-kitab px-4 letter-spacing-1">
+                                            Baca Kitab →
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
